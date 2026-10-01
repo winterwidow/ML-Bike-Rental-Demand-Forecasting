@@ -4,12 +4,6 @@ __pycache__/
 .venv/
 venv/
 
-# Datasets and generated artifacts
-data/raw/
-data/processed/
-outputs/
-models/
-
 # Local application settings
 .streamlit/secrets.toml
 .env
