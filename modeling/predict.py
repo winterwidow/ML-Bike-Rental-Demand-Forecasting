@@ -24,10 +24,10 @@ TRAIN_START_YEAR = 2011
 def load_model():
     """Load the saved model pipeline once and reuse it."""
     if not MODEL_PATH.exists():
-        raise FileNotFoundError(
-            f"Model not found at {MODEL_PATH}. Pull the latest branch, or run "
-            "notebooks/02_modeling.ipynb to create models/best_model.joblib."
-        )
+           raise FileNotFoundError(
+       f"Model not found at {MODEL_PATH}. Pull the latest branch, or create it with "
+       "`python -m scripts.train_final_model`."
+   )
     return joblib.load(MODEL_PATH)
 
 
