@@ -1,4 +1,3 @@
-# ML-Bike-Rental-Demand-Forecasting
 # Forecasting Bike Rental Demand
 
 **UE24CS352A – Machine Learning | Mini-Project (Problem 87)**
@@ -23,7 +22,7 @@ Predicting the hourly number of bike rentals in Washington D.C. from calendar an
 9. [Limitations and future work](#10-limitations-and-future-work)
 10. [Troubleshooting](#11-troubleshooting)
 11. [Team contributions](#12-team-contributions)
-12. [Deliverables](#12-deliverables)
+12. [Deliverables](#13-deliverables)
 
 ---
 
@@ -247,7 +246,7 @@ It trains the final XGBoost configuration, prints the chronological validation s
 | `FileNotFoundError ... train.csv` | Put `train.csv` and `test.csv` in `data/raw/` |
 | Port 8501 already in use | `streamlit run app/streamlit_app.py --server.port 8502` |
 
-## 11. Team contributions
+## 12. Team contributions
 
 | Area | Divyadharshini | Naija |
 |---|---|---|
@@ -260,9 +259,7 @@ It trains the final XGBoost configuration, prints the chronological validation s
 | Streamlit app | | ✔ |
 | README, write-up and slides | shared | shared |
 
-## 12. Deliverables and references
+## 13. Deliverables and references
 
 - **Write-up (PDF):** `report/writeup.pdf`
 - **Presentation slides:** `report/slides.pptx`
-- **Repository access:** shared with the course faculty and teaching assistants.
-
