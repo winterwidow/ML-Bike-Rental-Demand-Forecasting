@@ -26,7 +26,13 @@ def main() -> None:
         st.error(str(error))
         st.stop()
 
-    timestamp = st.datetime_input("Date and time", value=datetime.now().replace(minute=0, second=0))
+    timestamp = st.datetime_input(
+        "Date and time",
+        value=datetime(2012, 6, 15, 8),
+        min_value=datetime(2011, 1, 1),
+        max_value=datetime(2012, 12, 19, 23),
+        help="Choose a time covered by the training data.",
+    )
     left, right = st.columns(2)
     with left:
         weather = st.selectbox(
